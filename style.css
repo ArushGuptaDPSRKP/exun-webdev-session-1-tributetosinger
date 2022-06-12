@@ -1,0 +1,72 @@
+body{
+    font-family: 'Zilla Slab';
+}
+
+
+header nav h1{
+    font-style: italic;
+    color: black;
+    justify-content: center;   
+    text-align: center;
+    padding: 10px;
+    border: 2px solid blue;
+} 
+
+header section{
+    display: flex;
+    background-color: #191481;
+}
+
+header section p {
+    font-size: 24px;
+    padding: 8%;
+    color:rgba(255, 255, 255, 0.785);
+}
+
+section h1 {
+    text-align: center;
+    padding: 4px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    margin: 12px;
+    box-shadow: 6px 6px 8px 0px ;
+    background-color: white;
+}
+
+.container:hover {
+    color: blueviolet
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+#contact {
+    text-decoration: none;
+    color: red;
+    font-size: 140%;
+}
+
+#contact:hover {
+    text-decoration: underline;
+}
+
+#contactdiv {
+    text-align: center;
+}
+

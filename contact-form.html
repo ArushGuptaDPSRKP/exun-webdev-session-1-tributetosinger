@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@0;1&display=swap" rel="stylesheet">
+
+    <script>
+        function onClick() {
+            alert("Submitted!")
+        }
+    </script>
+
+    <title>Tribute to KK</title>
+</head>
+<body>
+    <header>
+    <h1>Contact Form</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque inventore illo tenetur laudantium officia expedita consequuntur doloremque magni maxime autem vitae nesciunt voluptatum nihil rem fuga ducimus, eius necessitatibus saepe eum unde nam. Nulla in quidem expedita laborum odit facere molestiae numquam optio qui ratione!</p>
+    </header>
+    <form action="">
+        <div class="container">
+            <label for="fname">First Name:</label><br>
+            <input type="text">
+        </div>
+        <div class="container">
+            <label for="lname">Last Name:</label><br>
+            <input type="text">
+        </div>
+        <div class="container">
+            <label for="phoneno.">Phone Number:</label><br>
+            <input type="number">
+        </div>
+        <div class="container">
+            <label for="email">Email:</label><br>
+            <input type="email">
+        </div>
+        <div class="container" id="submit" onclick="return onClick()">
+            <input type="submit">
+        </div>
+    </form>
+    <a href="index.html">Go Back</a>
+</body>
+</html>
